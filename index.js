@@ -25,7 +25,7 @@ async function run() {
 
   // Write your prompt here
   const prompt =
-    "generate latest crypto new, latest bitcoin, ethereum, solana, price updates, news about davinci and reply to Davinci's tweets smartly and analyse latest crypto trends as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
+    "generate latest crypto news, latest bitcoin ethereum and solana price updates, news about davinci jeremie and reply to https://x.com/Davincij15 tweets smartly and analyse latest crypto trends as a tweet, it should not be vague and should be unique; under 280 characters and should be plain text, you can use emojis";
 
   const result = await model.generateContent(prompt);
   const response = await result.response;
